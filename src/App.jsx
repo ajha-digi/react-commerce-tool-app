@@ -11,11 +11,10 @@ function App() {
       const project = await getApiRoot()
         .withProjectKey({ projectKey })
         // .products()
-        .customers()
+        // .customers()
+        .categories()
         .get()
-        .execute()
-        // .get()
-        // .execute();
+        .execute();
 
       setProjectDetails(project.body);
     } catch (e) {
