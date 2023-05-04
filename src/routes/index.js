@@ -5,7 +5,7 @@ import {
 
 import Layout from '../components/Layout'
 import App from '../App';
-import Product from "../pages/Product";
+import Products from "../pages/ProductListing";
 import Cart from '../pages/Cart';
 import ErrorPage from '../pages/ErrorPage';
 import Login from '../pages/Login';
@@ -22,8 +22,8 @@ export const router = createBrowserRouter([
                 element: <App />,
             },
             {
-                path: "product/:type",
-                element: <Product />,
+                path: "products/:type",
+                element: <Products />,
             },
             {
                 path: "cart",

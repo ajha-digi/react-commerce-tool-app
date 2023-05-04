@@ -2,9 +2,9 @@ import React from 'react'
 import { useParams } from 'react-router-dom';
 // import { useSelector, useDispatch } from 'react-redux';
 // import { decrement, increment } from '../store/slices/testSlice'
-import ProductContainer from "../container/Products";
+import ProductsContainer from "../container/Products";
 
-function Product() {
+function ProductListing() {
   const { type } = useParams();
   console.log({ type });
   // const count = useSelector((state) => state.counter.value);
@@ -12,7 +12,7 @@ function Product() {
 
   return (
     <div>
-      <ProductContainer />
+      <ProductsContainer />
 
       {/* <div>
         <button
@@ -33,4 +33,4 @@ function Product() {
   )
 }
 
-export default Product;
+export default ProductListing;
