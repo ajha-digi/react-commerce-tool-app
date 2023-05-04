@@ -1,12 +1,15 @@
-import React from 'react'
-import Grid from '@mui/material/Grid';
-import Paper from '@mui/material/Paper';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+import React from 'react';
+import {
+    Grid,
+    Card,
+    CardActions,
+    CardContent,
+    CardMedia,
+    Typography
+} from '@mui/material';
+
+import AddShoppingCartTwoToneIcon from '@mui/icons-material/AddShoppingCartTwoTone';
+import BookmarksOutlinedIcon from '@mui/icons-material/BookmarksOutlined';
 
 function Product() {
     return (
@@ -31,8 +34,8 @@ function Product() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Add to cart</Button>
-                                <Button size="small">Add to Wishlist</Button>
+                                <AddShoppingCartTwoToneIcon />
+                                <BookmarksOutlinedIcon style={{marginLeft:"auto"}}/>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -54,8 +57,8 @@ function Product() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Add to cart</Button>
-                                <Button size="small">Add to Wishlist</Button>
+                                <AddShoppingCartTwoToneIcon />
+                                <BookmarksOutlinedIcon style={{marginLeft:"auto"}}/>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -77,8 +80,8 @@ function Product() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Add to cart</Button>
-                                <Button size="small">Add to Wishlist</Button>
+                                <AddShoppingCartTwoToneIcon />
+                                <BookmarksOutlinedIcon style={{marginLeft:"auto"}}/>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -100,8 +103,8 @@ function Product() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Add to cart</Button>
-                                <Button size="small">Add to Wishlist</Button>
+                                <AddShoppingCartTwoToneIcon />
+                                <BookmarksOutlinedIcon style={{marginLeft:"auto"}}/>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -123,8 +126,8 @@ function Product() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Add to cart</Button>
-                                <Button size="small">Add to Wishlist</Button>
+                                <AddShoppingCartTwoToneIcon />
+                                <BookmarksOutlinedIcon style={{marginLeft:"auto"}}/>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -146,8 +149,8 @@ function Product() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Add to cart</Button>
-                                <Button size="small">Add to Wishlist</Button>
+                                <AddShoppingCartTwoToneIcon />
+                                <BookmarksOutlinedIcon style={{marginLeft:"auto"}}/>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -169,8 +172,8 @@ function Product() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Add to cart</Button>
-                                <Button size="small">Add to Wishlist</Button>
+                                <AddShoppingCartTwoToneIcon />
+                                <BookmarksOutlinedIcon style={{marginLeft:"auto"}}/>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -192,8 +195,8 @@ function Product() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Add to cart</Button>
-                                <Button size="small">Add to Wishlist</Button>
+                                <AddShoppingCartTwoToneIcon />
+                                <BookmarksOutlinedIcon style={{marginLeft:"auto"}}/>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -215,8 +218,8 @@ function Product() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Add to cart</Button>
-                                <Button size="small">Add to Wishlist</Button>
+                                <AddShoppingCartTwoToneIcon />
+                                <BookmarksOutlinedIcon style={{marginLeft:"auto"}}/>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -238,8 +241,8 @@ function Product() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Add to cart</Button>
-                                <Button size="small">Add to Wishlist</Button>
+                                <AddShoppingCartTwoToneIcon />
+                                <BookmarksOutlinedIcon style={{marginLeft:"auto"}}/>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -261,8 +264,8 @@ function Product() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Add to cart</Button>
-                                <Button size="small">Add to Wishlist</Button>
+                                <AddShoppingCartTwoToneIcon />
+                                <BookmarksOutlinedIcon style={{marginLeft:"auto"}}/>
                             </CardActions>
                         </Card>
                     </Grid>
